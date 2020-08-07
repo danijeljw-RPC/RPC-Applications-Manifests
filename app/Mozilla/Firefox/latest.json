@@ -1,0 +1,72 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/firefox/firefox.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "79.0.0.20200805",
+    "Name": "Firefox",
+    "Publisher": "Mozilla",
+    "Copyright": "Copyright © 1998-2020 Mozilla Foundation. All rights reserved.",
+    "License": "MPL-2.0",
+    "LicenseURI": "https://www.google.com/intl/en/chrome/browser/privacy/eula_text.html",
+    "Homepage": "https://www.mozilla.org/en-US/firefox/new/",
+    "Description": "Bringing together all kinds of awesomeness to make browsing better for you.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "browser",
+      "mozilla",
+      "firefox",
+      "web",
+      "internet"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://download.mozilla.org/?product=firefox-msi-latest-ssl&os=win64&lang=en-US",
+          "FollowURI": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/79.0/win64/en-US/Firefox%20Setup%2079.0.msi",
+          "Sha256": "732CDB321F7496C712D70B137B54073192E325CE382C46FE3DD13C1EC82034F3",
+          "Sha512": "0204313AFBAB817282C798F0FA9B0F398E476EECD5641D3123332D3A56A373E2CA275405D5DC7C212359718CC88080277019633EFB3B757D705A4495708318CD",
+          "InstallExe": "Firefox Setup 79.0.msi",
+          "InstallArgs": "/quiet /norestart",
+          "UninstallExe": "C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe",
+          "UninstallArgs": "/S",
+          "UpdateURI": "https://www.mozilla.org/en-US/firefox/new/",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Firefox).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\""
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://download.mozilla.org/?product=firefox-msi-latest-ssl&os=win64&lang=en-US",
+          "FollowURI": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/79.0/win32/en-US/Firefox%20Setup%2079.0.msi",
+          "Sha256": "BF68E6153F11EEA441F3B906F1ED64183229FBD41319DC0F283C7F5CB345E91D",
+          "Sha512": "0853E847255EDB2A954084138E41F9DC9880BE52567ADAC85686DE8721107DEEA378D0FB2657F4B2855896D221F6D9A2845391101720BE5F19373C077B3A0937",
+          "InstallExe": "Firefox Setup 79.0.msi",
+          "InstallArgs": "/quiet /norestart",
+          "UninstallExe": "C:\\Program Files (x86)\\Mozilla Firefox\\uninstall\\helper.exe",
+          "UninstallArgs": "/S",
+          "UpdateURI": "https://www.mozilla.org/en-US/firefox/new/",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Firefox).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "\"C:\\Program Files (x86)\\Mozilla Firefox\\uninstall\\helper.exe\""
+        }
+      }
+    }
+  }
+}
