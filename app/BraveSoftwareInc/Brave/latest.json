@@ -1,0 +1,73 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/brave/brave.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "1.13.59",
+    "Name": "Brave",
+    "Publisher": "Brave Software Inc.",
+    "Copyright": "Copyright © 1998-2020 Mozilla Foundation. All rights reserved.",
+    "License": "MPL-2.0",
+    "LicenseURI": "https://github.com/brave/brave-browser/blob/master/LICENSE",
+    "Homepage": "https://brave.com/",
+    "Description": "Brave is a free and open-source web browser developed by Brave Software Inc. based on the Chromium web browser.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "browser",
+      "web",
+      "internet",
+      "brave",
+      "brave-browser",
+      "bravebrowser"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://github.com/brave/brave-browser/releases/download/v1.13.59/BraveBrowserStandaloneSilentBetaSetup.exe",
+          "FollowURI": "https://github.com/brave/brave-browser/releases/download/v1.13.59/BraveBrowserStandaloneSilentBetaSetup.exe",
+          "Sha256": "F8BD7F0F831FAEFD372DBE4BADBA2E87252D0406CA4D55BE07B8A97CD513F96F",
+          "Sha512": "E59179FEA2E6B656A86730528F421E3BB1EA095E943B0EF1C457176537BDD74E03D1BBC7443AD92925C3C974D77D44413A197F8FFB46BEDE3148264A047D2EE8",
+          "InstallExe": "BraveBrowserStandaloneSilentBetaSetup.exe",
+          "InstallArgs": "",
+          "UninstallExe": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\84.1.11.104\\Installer\\setup.exe",
+          "UninstallArgs": "--uninstall --system-level",
+          "UpdateURI": "https://brave.com/",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Brave).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "\"C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\84.1.11.104\\Installer\\setup.exe\" --uninstall --system-level"
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://github.com/brave/brave-browser/releases/download/v1.13.59/BraveBrowserStandaloneSilentBetaSetup.exe",
+          "FollowURI": "https://github.com/brave/brave-browser/releases/download/v1.13.59/BraveBrowserStandaloneBetaSetup32.exe",
+          "Sha256": "956F3E220CDC86071A977AF041104977B30DA4DBCF3DF68E71D6C8DA4BE43266",
+          "Sha512": "8C24E974016CDDACCD4BF832EFBDEA4CF2D230880EC993DC2277F026FFFE1105E621C80645D52D43EC17426DEEF8B2C87F38C6AC629BC0211CA2BE5E6E487FFD",
+          "InstallExe": "BraveBrowserStandaloneSilentBetaSetup32.exe",
+          "InstallArgs": "",
+          "UninstallExe": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser-Beta\\Application\\84.1.13.59\\Installer\\setup.exe",
+          "UninstallArgs": "--uninstall --chrome-beta --system-level",
+          "UpdateURI": "https://brave.com/",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Firefox).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "\"C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser-Beta\\Application\\84.1.13.59\\Installer\\setup.exe\" --uninstall --chrome-beta --system-level"
+        }
+      }
+    }
+  }
+}
