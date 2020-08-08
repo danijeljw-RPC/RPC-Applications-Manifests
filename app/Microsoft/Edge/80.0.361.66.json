@@ -1,0 +1,73 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://raw.githubusercontent.com/DennisGaida/chocolatey-packages/master/microsoft-edge/microsoft-edge.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "80.0.361.66",
+    "Name": "Edge",
+    "Publisher": "Microsoft",
+    "Copyright": "© 2020 Microsoft Corporation. All rights reserved.",
+    "License": "MPL-2.0",
+    "LicenseURI": "https://www.microsoft.com/en-us/servicesagreement/",
+    "Homepage": "https://www.microsoft.com/en-us/edge",
+    "Description": "This package is the stable version of the Microsoft Edge browser, based on the Chromium open source browser. Portions of this browser are based on Third Party Open source software. The entire list of Microsoft utilized open source is available at https://thirdpartysource.microsoft.com/ while the portions and licenses specific to Edge are available at edge://credits/ once installed.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "browser",
+      "web",
+      "internet",
+      "edge",
+      "microsoft",
+      "chromium"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/36d8a910-0311-40a1-82f5-68f003f95abb/MicrosoftEdgeEnterpriseX64.msi",
+          "FollowURI": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/36d8a910-0311-40a1-82f5-68f003f95abb/MicrosoftEdgeEnterpriseX64.msi",
+          "Sha256": "DB0FAA2D2547FE6C06D09DE131A440B1097B94A2B44F3078750924D45E0B8836",
+          "Sha512": "C5AB2E1A5D1CBB3CF9DD7C189E38C92F2E1DD0BB97F0CE6FB15FF7732CEE0CA184BCC8F368344887E748A02EAB29CE0547FD4ABDFECF3E261EFF1C528C1AA6F5",
+          "InstallExe": "MicrosoftEdgeEnterpriseX64.msi",
+          "InstallArgs": "/qn /norestart",
+          "UninstallExe": "MsiExec.exe /X{58F6736B-52C9-3045-8109-DD14CF9E278B}",
+          "UninstallArgs": "/x {58F6736B-52C9-3045-8109-DD14CF9E278B} /qn /norestart",
+          "UpdateURI": "https://docs.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Edge).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /X{58F6736B-52C9-3045-8109-DD14CF9E278B}"
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/36d8a910-0311-40a1-82f5-68f003f95abb/MicrosoftEdgeEnterpriseX64.msi",
+          "FollowURI": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/96771696-d9cc-41c8-ac07-6214b6b61e19/MicrosoftEdgeEnterpriseX86.msi",
+          "Sha256": "3D6548943F497FB465F509A11E785BC84A7BB12A154CF447E6280CBFC48CF474",
+          "Sha512": "389BC82D5AD4F572861F2A0DD529217D63722897A163D542FD0EF17C625A9EFE8BF27BCCD47CC2F5B5721192F2FA30D995CB37F07C997790BD496E023938FD70",
+          "InstallExe": "MicrosoftEdgeEnterpriseX86.msi",
+          "InstallArgs": "/qn /norestart",
+          "UninstallExe": "this-needs-to-be-updated-still",
+          "UninstallArgs": "this-needs-to-be-updated-still",
+          "UpdateURI": "https://docs.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Edge).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "this-needs-to-be-updated-stilll"
+        }
+      }
+    }
+  }
+}
