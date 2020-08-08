@@ -1,0 +1,72 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/tor-browser/tor-browser.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "9.5.3",
+    "Name": "Tor Browser",
+    "Publisher": "Tor Project",
+    "Copyright": "Copyright © 2007-2019. The Tor Project, Inc.",
+    "License": "BSD-3-Clause",
+    "LicenseURI": "https://www.torproject.org/docs/faq.html.en#DistributingTor",
+    "Homepage": "https://www.torproject.org/",
+    "Description": "The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world: it prevents somebody watching your Internet connection from learning what sites you visit, it prevents the sites you visit from learning your physical location, and it lets you access sites which are blocked.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "browser",
+      "web",
+      "internet",
+      "tor",
+      "privacy"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "exe",
+          "InstallURI": "https://www.torproject.org/dist/torbrowser/9.5.3/torbrowser-install-win64-9.5.3_en-US.exe",
+          "FollowURI": "https://dist.torproject.org/torbrowser/9.5.3/torbrowser-install-win64-9.5.3_en-US.exe",
+          "Sha256": "E74FA6AE21364D181E8BC8C274B8AD03E95DC10F586F65C466050910D2097841",
+          "Sha512": "020E44E04A5A6F6C313532D77D49CEE9F65E0B82FBBDFA89FD152479E678AA63014479B9067447C35CFB0BF63D913BA141C37F3CAF9D2067588130A0C2A8C657",
+          "InstallExe": "torbrowser-install-win64-9.5.3_en-US.exe",
+          "InstallArgs": "/S",
+          "UninstallExe": "this-needs-to-be-updated-still",
+          "UninstallArgs": "this-needs-to-be-updated-still",
+          "UpdateURI": "https://en.wikipedia.org/wiki/Tor_(anonymity_network)#Tor_Browser",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "this-needs-to-be-updated-still",
+          "DetectionKind": "String",
+          "DetectionResult": "this-needs-to-be-updated-still"
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "exe",
+          "InstallURI": "https://www.torproject.org/dist/torbrowser/9.5.3/torbrowser-install-win64-9.5.3_en-US.exe",
+          "FollowURI": "https://dist.torproject.org/torbrowser/9.5.3/torbrowser-install-9.5.3_en-US.exe",
+          "Sha256": "E7FB69E3A7F7A4B4B404933E03B70AE7D47BBD8F0FEF394E62167B5E45633151",
+          "Sha512": "7ACF7D70ADDBCD54B77E8B7684CDB8F24F0A50359CB2AAD610FD004340F09207F6D97FABC8B6F7D82D5800510A1DCA130958A6CBDE67AD6AA48DF96269B21D7D",
+          "InstallExe": "torbrowser-install-9.5.3_en-US.exe",
+          "InstallArgs": "/S",
+          "UninstallExe": "this-needs-to-be-updated-still",
+          "UninstallArgs": "this-needs-to-be-updated-still",
+          "UpdateURI": "https://en.wikipedia.org/wiki/Tor_(anonymity_network)#Tor_Browser",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "this-needs-to-be-updated-still",
+          "DetectionKind": "String",
+          "DetectionResult": "this-needs-to-be-updated-still"
+        }
+      }
+    }
+  }
+}
