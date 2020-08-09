@@ -10,7 +10,7 @@
     "Publisher": "NETitwork GmbH",
     "Copyright": "NETitwork GmbH © 2020. All rights reserved.",
     "License": "BSD-3-Clause",
-    "LicenseURI": "https://raw.githubusercontent.com/repasscloud/software-library/master/lib/public/licenses.csv",
+    "LicenseURI": "https://github.com/iridium-browser/iridium-browser/blob/master/LICENSE",
     "Homepage": "https://iridiumbrowser.de/",
     "Description": "Iridium is a privacy-focused modification of the Chromium web browser.",
     "Arch": [
