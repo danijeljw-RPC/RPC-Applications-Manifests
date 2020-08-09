@@ -1,0 +1,58 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://gitlab.com/dimqua/choco/-/raw/stable/icecat/icecat.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "78.0.1",
+    "Name": "IceCat",
+    "Publisher": "GNU",
+    "Copyright": "Copyright © 2014-2019 Ruben Rodriguez <ruben@gnu.org>",
+    "License": "GPL-3.0",
+    "LicenseURI": "https://git.savannah.gnu.org/cgit/gnuzilla.git/tree/COPYING",
+    "Homepage": "https://www.gnu.org/software/gnuzilla/",
+    "Description": "A fully-free (as in freedom) fork of Mozilla Firefox ESR.",
+    "Arch": [
+      "x64"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "unofficial",
+      "gnu",
+      "icecat",
+      "web",
+      "browser",
+      "web-browser",
+      "firefox",
+      "freedom",
+      "privacy",
+      "esr",
+      "fork"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "exe",
+          "InstallURI": "https://github.com/muslayev/icecat-win64/releases/download/v78.0.1/icecat-78.0.1.en-US.win64.installer.exe",
+          "FollowURI": "https://github.com/muslayev/icecat-win64/releases/download/v78.0.1/icecat-78.0.1.en-US.win64.installer.exe",
+          "Sha256": "49A0A16132B7BE1084FA76194C8CECB481A9A4D853A82BF0A044EF3FF270B4BC",
+          "Sha512": "800E8C669DB63963EF7D44F60752209922B7ED7BE2B048037B31658284239D85602F23BE486CC6A2EF35D7A4CCB8C4BA819B8211BAE4FA81BE4BD3EFFFBF1223",
+          "InstallExe": "icecat-78.0.1.en-US.win64.installer.exe",
+          "InstallArgs": "-ms",
+          "UninstallExe": "C:\\Program Files\\IceCat\\uninstall\\helper.exe",
+          "UninstallArgs": "/S",
+          "UpdateURI": "https://gitlab.com/dimqua/choco/-/raw/stable/icecat/icecat.nuspec",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application icecat).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "\"C:\\Program Files\\IceCat\\uninstall\\helper.exe\""
+        }
+      }
+    }
+  }
+}
