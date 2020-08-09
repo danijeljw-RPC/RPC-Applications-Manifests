@@ -1,0 +1,76 @@
+{
+  "Category": "browser",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://gitlab.com/dimqua/choco/-/raw/stable/iridium-browser/iridium-browser.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "2020.1.79",
+    "Name": "Iridium",
+    "Publisher": "NETitwork GmbH",
+    "Copyright": "NETitwork GmbH © 2020. All rights reserved.",
+    "License": "BSD-3-Clause",
+    "LicenseURI": "https://raw.githubusercontent.com/repasscloud/software-library/master/lib/public/licenses.csv",
+    "Homepage": "https://iridiumbrowser.de/",
+    "Description": "Iridium is a privacy-focused modification of the Chromium web browser.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "iridium",
+      "iridium-browser",
+      "blink",
+      "chromium",
+      "chrome",
+      "privacy",
+      "security",
+      "browser",
+      "web"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://downloads.iridiumbrowser.de/windows/2020.01.79/iridiumbrowser-2020.01.79.0-x64.msi",
+          "FollowURI": "https://downloads.iridiumbrowser.de/windows/2020.01.79/iridiumbrowser-2020.01.79.0-x64.msi",
+          "Sha256": "D34BDDC7703AE91B3C9069C0E395BB7FEFF5F2ED140CFE3ECD420AA7C145B8AA",
+          "Sha512": "B08F87676C4F056C36078204B0DDEA118A750C7456AB03F4AEE07083CE7D5A5C261F9F96FF8603D795B66680BF3CBF39C8B1FE1E10839647A56F239818C86367",
+          "InstallExe": "iridiumbrowser-2020.01.79.0-x64.msi",
+          "InstallArgs": "/qn /norestart",
+          "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
+          "UninstallArgs": "/x {493BC69E-7667-4B7A-8759-2ABEAD45AC88} /qn",
+          "UpdateURI": "https://gitlab.com/dimqua/choco/-/raw/stable/iridium-browser/iridium-browser.nuspec",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application iridium).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{493BC69E-7667-4B7A-8759-2ABEAD45AC88}"
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://downloads.iridiumbrowser.de/windows/2020.01.79/iridiumbrowser-2020.01.79.0-x64.msi",
+          "FollowURI": "https://downloads.iridiumbrowser.de/windows/2020.01.79/iridiumbrowser-2020.01.79.0-x86.msi",
+          "Sha256": "79285D28F249AE2BD5E193490210599617FC37D861ACEA29092209D57E4B5DB9",
+          "Sha512": "700257953F95C55E2A8759229DDC16381623B6AABF623B041CDDD11837EB823081257C679026DA1E6B4FEC5F72FD27F8764C770E7E83619D4BFCFB9792A11F52",
+          "InstallExe": "iridiumbrowser-2020.01.79.0-x86.msi",
+          "InstallArgs": "/qn /norestart",
+          "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
+          "UninstallArgs": "/x {B42E20FE-AB5F-496F-A0E5-08E3DC8EAE31} /qn",
+          "UpdateURI": "https://gitlab.com/dimqua/choco/-/raw/stable/iridium-browser/iridium-browser.nuspec",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application iridium).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{B42E20FE-AB5F-496F-A0E5-08E3DC8EAE31}"
+        }
+      }
+    }
+  }
+}
