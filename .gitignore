@@ -36,3 +36,6 @@ Temporary Items
 
 # Working files
 Tests
+
+# VSCode
+.vscode/*
